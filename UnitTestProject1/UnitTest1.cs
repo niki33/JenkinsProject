@@ -10,6 +10,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
+
             Assert.AreEqual("Hello World", Program.CreateMessage());
         }
     }
